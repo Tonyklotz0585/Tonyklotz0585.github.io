@@ -1,0 +1,19 @@
+body {
+	background: #222
+	
+}
+header {
+	backround: #55d6aa;
+}
+nav {
+float: right;
+}
+nav ul {
+margin: 0;
+list-style: none;
+}
+
+nav li {
+display: inline-block;
+margin: 0 10px; 
+}

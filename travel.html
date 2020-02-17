@@ -1,12 +1,141 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-  	<meta charset="utf-8">
-  	<title> Travel Page  </title>
-  </head>
-  <body>
-  <h2>
-  this page is under construction
-  </h2>
-  </body>    
-</html>
+<html><head>
+        <link rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Two Column Example</title>
+        <style>
+        	* {
+        		box-sizing: border-box;
+        	}
+        	
+        	.row {
+        		content: "";
+        		display: table;
+        		clear: both;
+    		}
+    		
+    		.columnLeft{
+    			float: left;
+    			width: 30%;
+    			padding: 20px;
+    		}
+    		
+    		.columnRight{
+    			float: right;
+    			width: 70%;
+    			padding: 20px;
+    		}
+    		
+    		body {
+    		background: rgb(221,221,221);
+    		}   		
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+    		
+	
+        </style>
+    </head>
+    
+    <body data-gr-c-s-loaded="true">
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="travel.html">Travel</a></li>
+
+        </ul>
+		
+		<div class="content">
+			<h1>
+				Kauai Hawaii
+			</h1>
+			
+			<br>
+			
+			<h2>
+				This Page is About Kauai, Hawaii
+				<img src="images/Kauai1.jpg" width="75%" class="center">
+			</h2>
+			
+			<div class="row">
+				<div class="columnLeft">
+				<h2>
+					<i>What is Kauai?
+				</h2>
+					<p>
+						Kauai is an island in the Central Pacific, part of the Hawaiian archipelago. 
+						It's nicknamed "the Garden Isle" thanks to the tropical rainforest covering 
+						much of its surface. The dramatic cliffs and pinnacles of its Na Pali Coast 
+						have served as a backdrop for major Hollywood films, while 10-mile-long Waimea 
+						Canyon and the Nounou Trails traversing the Sleeping Giant mountain ridge are
+						hiking destinations.
+					</p>
+					<img src="images/Napali_0_1.jpg" width="100%" class="center">
+				</div>
+
+				<div class="columnRight">
+				<h2>
+					<i>What is there to do?
+				</h2>
+					<p>
+						Kauai is hiking paradise. There is no doubt about that. The Na Pali coast 
+						has some of the most epic ridges and drop-offs in the world. 
+						There are countless epic waterfall hikes and then there is the magical 
+						Kalalau Trail along the coast.
+					</p>
+				<img src="images/Kauai-lead.jpg" width="50%" class="center">
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			<div class="row">
+				<div class="columnLeft">
+				<h2>
+					<i>Anything else?
+				</h2>
+					<p>
+						There is many things to do in Kauai Hawaii instead of just hiking. 
+						Some of these things are; swimming, tanning, relaxing, exploring the
+						aquatic life, and much more. These are lots of the reasons why Kauai
+						would be a cool place to go.
+					</p>
+					<img src="images/kauai2.jpg" width="110%" class="center">
+				</div>
+
+				<div class="columnRight">
+				<img id="last" src="images/kauai3.jpg" width="75%" class="center">
+				</div>
+			</div>
+			
+		</div>
+    
+
+</body></html>
